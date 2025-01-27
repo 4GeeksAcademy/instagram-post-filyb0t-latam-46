@@ -1,4 +1,4 @@
-/* style.css */
+
 body {
    font-family: Arial, sans-serif;
    background-color: #000; 
@@ -11,7 +11,7 @@ body {
    color: #fff; 
 
 .post {
-   width: 400px;
+   width: 500px;
    border: 1px solid #dbdbdb;
    background-color: #1c1c1c; 
    border-radius: 3px;
@@ -62,8 +62,8 @@ body {
 }
 
 .image-center img {
-   width: 100%;
-   height: auto;
+   width: 500px;
+   height: 500px;
 }
 
 .post-body {
@@ -72,16 +72,11 @@ body {
 
 .post-icons {
    display: flex;
-   justify-content: space-between;
-   align-items: center;
    margin-bottom: 10px;
+   padding: right;
+   gap: 10px;
 }
 
-.post-icons p {
-   margin: 0;
-   font-size: 20px;
-   color: #fff; 
-}
 
 .align-right {
    text-align: right;
@@ -95,5 +90,8 @@ body {
 
 strong {
    font-weight: bold;
-   color: #fff; 
+   color: #fff; ñ
+}
+.book-mark {
+margin-left: auto;
 }
